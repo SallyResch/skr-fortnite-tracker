@@ -17,11 +17,13 @@ header{
 
 .container #epicNickName{
   background-color: purple;
+  color:white
 }
 
 .container .input-group-append{
   background-color: black;
 }
+
 .container #submit{
 color: white;
 }
@@ -30,6 +32,7 @@ color: white;
   background-color: black;
   color: white;
 }
+
 #platform .dropdown-item{
   color: white;
 }
