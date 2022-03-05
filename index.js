@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/static/index.html'))
 });
 
-var uri = 'https://api.fortnitetracker.com/v1/profile/';
+let uri = 'https://api.fortnitetracker.com/v1/profile/';
 //https://api.fortnitetracker.com/v1/profile/{platform}/{epic-nickname}
 //kbm, gamepad, touch
 //API nyckel: 14df28ad-d605-40b7-87f8-5596a4cb0140
@@ -28,5 +28,5 @@ app.post('/', function (req, res) {
   });
 });
 
-var port = process.env.PORT || 3002;
+let port = process.env.PORT || 3000;
 app.listen(port);
