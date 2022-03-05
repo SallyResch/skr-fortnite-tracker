@@ -1,11 +1,35 @@
-h1{
+body {
+  background-image: url('113027.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header{
   text-align: center;
+  background-color:black;
+  color:white;
 }
 .container{
   margin-top: 12em;
-  background-color: rgb(231, 238, 144);
 }
 
-.list-group{
-  background-color: rgb(249, 249, 104);
+.container #epicNickName{
+  background-color: purple;
+}
+
+.container .input-group-append{
+  background-color: black;
+}
+.container #submit{
+color: white;
+}
+
+#platform{
+  background-color: black;
+  color: white;
+}
+#platform .dropdown-item{
+  color: white;
 }
