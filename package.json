@@ -1,0 +1,25 @@
+{
+  "name": "skr-fortnite-tracker",
+  "version": "1.0.0",
+  "description": "fornite stat tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SallyResch/skr-fortnite-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SallyResch/skr-fortnite-tracker/issues"
+  },
+  "homepage": "https://github.com/SallyResch/skr-fortnite-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
