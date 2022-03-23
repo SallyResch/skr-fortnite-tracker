@@ -37,6 +37,16 @@ color: white;
   color: white;
 }
 
-.card-text-center{
+body #results .card-text-center{
   background-color: rgb(160, 42, 203);
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
