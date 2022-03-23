@@ -43,7 +43,7 @@ $(function () {
     let template = '<div class="card text-center">' +
       '<h5 class="card-header">' + epicUserHandle + '</h5>' +
       '<div class="card-body">' +
-      '<h5 class="card-title">' + 'Wins' + '</h5>' +
+      '<h5 class="card-title">' + 'Lifetime Wins' + '</h5>' +
       '<p class="card-text">' + list + '</p>' +
       '</div>' +
       '</div>';
