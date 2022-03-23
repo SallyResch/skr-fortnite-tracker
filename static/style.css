@@ -36,3 +36,7 @@ color: white;
 #platform .dropdown-item{
   color: white;
 }
+
+.card-text-center{
+  background-color: rgb(160, 42, 203);
+}
